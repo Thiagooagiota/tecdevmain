@@ -1,0 +1,2 @@
+def robo(frase):
+    frase

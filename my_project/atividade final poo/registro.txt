@@ -1,0 +1,2 @@
+thiago:123:recepcionista
+rodrigo:123:instrutor

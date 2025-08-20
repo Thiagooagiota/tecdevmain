@@ -1,0 +1,27 @@
+while True:
+    opçoes = int(input(f"""DIGITE UMA DAS OPÇOES A SEGUIR PARA CONTINUAR
+    se voce deseja colocar creditos no seu celular, digite 1
+    se voce deseja cancelar seu numero , digite 2
+    se voce deseja resolver um erro na sua fatura, digite 3
+    se voce deseja falar com um atendente, digite 4
+                    
+                    """))
+
+    if opçoes == 1:
+        print("serviço de creditos indisponivel no momento")
+
+    elif opçoes == 2:
+        print("serviço de cancelamento indisponivel no momento")
+
+    elif opçoes == 3:
+        print("serviço de resoluçao de erro indisponivel no momento")
+
+    elif opçoes == 4:
+        print("serviço de falar com um atendente indisponivel no momento")
+
+    else:
+        print(f"""numero invalido 
+
+    """)
+        
+    input("DIGITE ENTER PARA CONTINUAR")
